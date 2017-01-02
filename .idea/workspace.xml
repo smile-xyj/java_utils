@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43dec777-ab7e-449a-ad0c-622d5193afc4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_madgag_spongycastle_prov_1_54_0_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/utils/FastByteComparisons.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/types/ByteArrayWrapper.class" afterPath="$PROJECT_DIR$/target/classes/types/ByteArrayWrapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/ByteUtil.class" afterPath="$PROJECT_DIR$/target/classes/utils/ByteUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/FastByteComparisons$Comparer.class" afterPath="$PROJECT_DIR$/target/classes/utils/FastByteComparisons$Comparer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/FastByteComparisons$LexicographicalComparerHolder$PureJavaComparer.class" afterPath="$PROJECT_DIR$/target/classes/utils/FastByteComparisons$LexicographicalComparerHolder$PureJavaComparer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/FastByteComparisons$LexicographicalComparerHolder.class" afterPath="$PROJECT_DIR$/target/classes/utils/FastByteComparisons$LexicographicalComparerHolder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/FastByteComparisons.class" afterPath="$PROJECT_DIR$/target/classes/utils/FastByteComparisons.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/FileOperation.class" afterPath="$PROJECT_DIR$/target/classes/utils/FileOperation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/utils/JsonOperation.class" afterPath="$PROJECT_DIR$/target/classes/utils/JsonOperation.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/TestUtils/FileOperationTest.class" afterPath="$PROJECT_DIR$/target/test-classes/TestUtils/FileOperationTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_playground.iml" afterPath="$PROJECT_DIR$/java_playground.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
@@ -13,6 +21,11 @@
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/.git/" />
+    <ignored path="$PROJECT_DIR$/.idea/" />
+    <ignored path="$PROJECT_DIR$/$/" />
+    <ignored path="$PROJECT_DIR$/${}}/" />
+    <ignored path="$PROJECT_DIR$/${}/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,8 +45,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="15" column="19" selection-start-line="9" selection-start-column="4" selection-end-line="24" selection-end-column="12" />
+            <state relative-caret-position="496">
+              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -42,8 +55,8 @@
       <file leaf-file-name="ByteUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/utils/ByteUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12">
-              <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="508">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
               <folding>
                 <element signature="e#3961#3962#0" expanded="false" />
                 <element signature="e#4027#4028#0" expanded="false" />
@@ -261,10 +274,6 @@
               <option name="myItemId" value="java_playground" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -375,11 +384,13 @@
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.17701149" />
     <property name="GO_FMT" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1182,7 +1193,7 @@
       <workItem from="1481958911227" duration="20419000" />
       <workItem from="1482039572982" duration="4404000" />
       <workItem from="1482109992701" duration="1584000" />
-      <workItem from="1483352437247" duration="2971000" />
+      <workItem from="1483352437247" duration="5329000" />
     </task>
     <task id="LOCAL-00001" summary="update some test file">
       <created>1482042072947</created>
@@ -1227,11 +1238,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29378000" />
+    <option name="totallyTimeSpent" value="31736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32964602" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1241,8 +1252,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33225107" sideWeight="0.50418293" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3183716" sideWeight="0.49804798" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33194155" sideWeight="0.49581707" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3183716" sideWeight="0.49804798" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22442588" sideWeight="0.49581707" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19181868" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
@@ -1621,8 +1632,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/utils/ByteUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="508">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
           <folding>
             <element signature="e#3961#3962#0" expanded="false" />
             <element signature="e#4027#4028#0" expanded="false" />
@@ -1646,8 +1657,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="15" column="19" selection-start-line="9" selection-start-column="4" selection-end-line="24" selection-end-column="12" />
+        <state relative-caret-position="496">
+          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1729,11 +1740,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.5.0</last-edited>
+          <last-edited>Maven: com.madgag.spongycastle:core:1.54.0.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.51664984" />
+                <option value="0.17701149" />
               </list>
             </option>
           </splitter-proportions>
