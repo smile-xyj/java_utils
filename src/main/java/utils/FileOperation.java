@@ -171,3 +171,11 @@ public class FileOperation {
     }
 
 }
+
+    public static String GetNowPath(){
+        File directory = new File("");
+        String path = null;
+        path = directory.getAbsolutePath();
+        return path;
+    }
+
